@@ -10,3 +10,8 @@ def raadhetgetal():
             break
         else:
             print("Helaas, probeer het nog eens!")
+    def checkinput():
+        if gok == "stop":
+            return False
+        else:
+            return True
